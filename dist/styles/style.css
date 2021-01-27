@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    src: url(/fonts/Sterilict-L3aen.ttf);
+    font-family: sterilict;
+}
+
+@font-face {
+    src: url(/fonts/RoddenberryBold-AgG2.ttf);
+    font-family: rod1;
+}
+ 
+body {
+    background-image: url(https://media.giphy.com/media/TxVVB6PfWMjE4/giphy.gif);
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    height: 25vh;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e7f1ef;
+    font-size: 4rem;
+    font-family: sterilict;
+    letter-spacing: 3px;
+    text-shadow: 2px 1px 1px rgba(255, 255, 255, .7)
+    /* border: 1px solid yellow; */
+}
+
+#logo {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.tabContainer {
+    width: 60%;
+    height: 75vh;
+    margin: 0 auto;
+}
+
+.buttonContainer {
+    height: 15%;
+    margin: 0 auto;
+}
+
+button {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #aaaaaa;
+    opacity: .9;
+    color: #ffffff;
+    font-family: rod1;
+    font-weight: bold;
+    font-size: 3rem;
+    letter-spacing: 6px;
+    box-shadow: inset 5px black;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+button:hover {
+    background-color: #2B6DD7;
+    color: white;
+}
+
+.clicked {
+    background-color: #f6f8f8;
+    color: rgb(27, 27, 27);
+}
+
+#content {
+    /* border: 1px solid purple; */
+    min-height: 85%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-color: rgba(43, 109, 215, .8);
+    color: #ffffff;
+    text-align: left;
+    padding-top: 5rem;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .7);
+    font-family: rod1;
+}
+
+#content h2 {
+    letter-spacing: 3px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#content h4 {
+    margin-top: 20px;
+    text-align: left;
+    line-height: 1.6;
+    letter-spacing: 4px;
+    font-size: 2.5rem;
+    padding: 1rem 6rem 0 6rem;
+}
+
+.cardContainer {
+    width: 80%;
+    min-height: 50%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.card {
+    font-size: 1rem;
+    height: 300px;
+    width: 100%;
+    border: 3px solid #cccccc;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgba(56, 56, 56, 0.7);
+    cursor: pointer;
+}
+
+.card:hover {
+    color: rgb(0, 255, 85);
+    border: 3px solid rgb(0, 255, 85);
+}
+
+.menuItem-container {
+    /* border: 1px solid purple; */
+    height: 60%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 2rem;
+}
+
+h3 {
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+
+.menu-icon {
+    height: 60%;
+    padding: 2rem;
+}
+
+#bloodwine {
+    margin-right: 1.75rem;
+}
+
+.contactImage {
+    width: 80%;
+    margin: 0 auto;
+    padding: 3rem;
+    /* border: 1px solid green; */
+}
+
+.contactImage img {
+    width: 100%;
+}
