@@ -16,7 +16,7 @@ const contactContent = function(){
 
     const contactImage = document.createElement('div');
     contactImage.classList.add('contactImage');
-    contactImage.innerHTML = `<img src="dist/images/ds9.jpg">`;
+    contactImage.innerHTML = `<img src="https://wwwimage-secure.cbsstatic.com/thumbnails/photos/w1920-q80/marquee/1021640/f48b60d11fc49c81_stds9_sp_hero_landscape.jpg">`;
 
     contentContainer.appendChild(contactHeadline);
     contentContainer.appendChild(contactInfo);
