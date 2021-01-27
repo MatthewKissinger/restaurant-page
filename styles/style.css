@@ -5,12 +5,12 @@
 }
 
 @font-face {
-    src: url(/fonts/Sterilict-L3aen.ttf);
+    src: url(/dist/fonts/Sterilict-L3aen.ttf);
     font-family: sterilict;
 }
 
 @font-face {
-    src: url(/fonts/RoddenberryBold-AgG2.ttf);
+    src: url(/dist/fonts/RoddenberryBold-AgG2.ttf);
     font-family: rod1;
 }
  
